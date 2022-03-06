@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* color : #FBF9F6
+
+color: #F7F3F0
+
+color :#5A665A
+
+color : #515151 */
+
+/* GENERAL */
+
+html,body{
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Playfair Display', serif;
+    background-color: #F7F3F0;
+}
+
+a{
+    text-decoration: none;
+    color: #FBF9F6;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* HEADER */
+
+header{
+    background: url(/content/img/background-header-yann-sechepee-hypnopraticien.png) right bottom/cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.headerNav{
+    color: #FBF9F6;
+    padding: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* LOGO + Titre Yann */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo i{
+    margin-right: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/* Barre de navigation */
+
+nav{
+    margin: 1rem;
+}
+nav, ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li{
+    text-align: center;
+    margin: 0.4rem;
+}
+
+nav ul li a{
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border-radius: 30px;
+}
+
+nav ul li a:hover{
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    background-color: #5A665A ;
+}
+
+/* LINK Social média */
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia ul li{
+    margin:0.5rem;
+}
+
+.fa-instagram:hover{
+    color: rgb(255, 230, 0) ;
+}
+.fa-facebook-square:hover{
+    color: rgb(42, 27, 177);
+}
+
+/* Header CONTENT */
+
+.headerContent{
+    height: 50vh;
+    color:#515151;
+    margin: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerContent a{
+    color:#515151;
+    font-weight: 700;
+}
+
+.left .right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LEFT SIDE */
+
+.left{
+    position: relative;
+    top:-50px;
+    left: -80px;
+}
+
+.left h1,h2{
+    margin: 1rem;
+}
+
+.left h1{
+    font-size: 3rem;
+}
+.left h1 span{
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    font-size: 2rem;
+    text-align: right;
+    margin: 1rem 0;
+}
+
+.left h2{
+    text-align: center;
+    font-size: 1rem;
+    margin: 3rem;
+}
+
+.rdv{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.rdv a{
+    padding:0.8rem 1.5rem;
+    border-radius: 30px;
+    background-color: #F7F3F0;
+    border: solid 1px #5A665A;
+}
+.rdv a:hover{
+    color: #F7F3F0;
+    background-color: #5A665A;
+}
+
+
+/* RIGHT SIDE */
+
+.right {
+    text-align: center;
+    background-color: #fbf9f649;
+    border-radius: 10px;
+    padding: 1rem;
+    height: 130px;
+    font-family: 'Lato', sans-serif;
+}
+
+.right span{
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #F7F3F0;
+    border: solid 1px #5A665A;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.right span:hover{
+    
+        color: #F7F3F0;
+        background-color: #5A665A;
+
+}
+
+
+
+/* MAIN */
+main{
+    background-color: #F7F3F0;
+    color: #515151;
+}
+main h1{
+    margin: 5rem;
+
+}
+
+main p{
+    margin: 5rem;
+    text-align: justify;
+}
+
+
