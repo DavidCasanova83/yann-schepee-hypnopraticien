@@ -38,6 +38,13 @@ li {
   list-style: none;
 }
 
+.separator{
+    height: 3px;
+    width: 75px;
+    margin: 1rem 5rem;
+    background-color: #0d273b;
+}
+
 /* HEADER */
 
 header {
@@ -51,11 +58,20 @@ header {
 }
 .headerNav {
   color: #fbf9f6;
-  padding: 2rem;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.headerNav h2{
+    margin: 2rem;
+}
+
+.headSeparator{
+    height: 3px;
+    width: 75px;
+    margin: 1rem auto;
+    background-color: #0d273b;
 }
 
 /* LOGO + Titre Yann */
@@ -71,6 +87,10 @@ header {
 
 h2 {
   font-size: 2rem;
+}
+
+h3{
+    margin: 1rem;
 }
 
 /* Barre de navigation */
@@ -270,7 +290,7 @@ section {
 
 .who-content-img {
   flex: 1;
-  background: url(/images/team.jpg) center center/cover;
+  background: url(/content/img/yann-sechepee-profil.jpg) center center/cover;
 }
 
 .who-content-img img {
@@ -301,7 +321,17 @@ section {
     display: block;
     max-width: 1200px;
     margin:auto;
-    background-color: rgba(255, 0, 0, 0.185);
+}
+
+.container-tarif p{
+    margin: 0rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.pTarif{
+    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 .tarif-list{
@@ -321,7 +351,7 @@ section {
     width:100%;
 }
 
-.offer-elem-text{
+.tarif-elem-text{
     padding: 2rem;
     text-align: center;
 }
@@ -334,6 +364,19 @@ section {
 }
 
 
+/* Contact */
+
+#contact{
+    background-color: #0d273b33;
+}
+
+/*  !!!! a changer !!! */
+
+#contact h2, p{
+    padding: 2rem;
+    margin: 5rem;
+    padding-top:0;
+}
 
 
 

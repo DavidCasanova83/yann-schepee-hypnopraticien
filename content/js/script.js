@@ -2,7 +2,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-    document.getElementById("navbar").style.top = "90vh";
+    document.getElementById("navbar").style.top = "87vh";
   } else {
     document.getElementById("navbar").style.top = "-100px";
   }
