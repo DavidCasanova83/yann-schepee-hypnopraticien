@@ -6,4 +6,4 @@ https://yann-schepee-hypnopraticien.vercel.app/
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.PNG)
